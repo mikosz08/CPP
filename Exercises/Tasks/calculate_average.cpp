@@ -13,7 +13,8 @@ int main()
         cout << i << ", ";
         avg += i;
     }
-    cout << "AVG: " << avg / LEN << endl;
+    avg /= LEN;
+    cout << "AVG: " << avg << endl;
 
     return 0;
 }
