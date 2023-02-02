@@ -5,41 +5,42 @@ using namespace std;
 
 int main()
 {
-    cout << "CHAR_BIT: " << CHAR_BIT << '\n'
-         << endl;
+     cout << "CHAR_BIT: " << CHAR_BIT << '\n'
+          << endl;
 
-    cout << "SCHAR_MIN: " << SCHAR_MIN << endl;
-    cout << "SCHAR_MAX: " << SCHAR_MAX << '\n'
-         << endl;
+     cout << "SCHAR_MIN: " << SCHAR_MIN << endl;
+     cout << "SCHAR_MAX: " << SCHAR_MAX << '\n'
+          << endl;
 
-    cout << "UCHAR_MAX: " << UCHAR_MAX << '\n'
-         << endl;
+     cout << "UCHAR_MAX: " << UCHAR_MAX << '\n'
+          << endl;
 
-    cout << "CHAR_MIN: " << CHAR_MIN << endl;
-    cout << "CHAR_MAX: " << CHAR_MAX << '\n'
-         << endl;
+     cout << "CHAR_MIN: " << CHAR_MIN << endl;
+     cout << "CHAR_MAX: " << CHAR_MAX << '\n'
+          << endl;
 
-    cout << "SHRT_MIN: " << SHRT_MIN << endl;
-    cout << "SHRT_MAX: " << SHRT_MAX << endl;
-    cout << "USHRT_MAX: " << USHRT_MAX << '\n'
-         << endl;
+     cout << "SHRT_MIN: " << SHRT_MIN << endl;
+     cout << "SHRT_MAX: " << SHRT_MAX << endl;
+     cout << "USHRT_MAX: " << USHRT_MAX << '\n'
+          << endl;
 
-    cout << "INT_MIN: " << INT_MIN << endl;
-    cout << "INT_MAX: " << INT_MAX << endl;
-    cout << "UINT_MAX: " << UINT_MAX << '\n'
-         << endl;
+     cout << "INT_MIN: " << INT_MIN << endl;
+     cout << "INT_MAX: " << INT_MAX << endl;
+     cout << "UINT_MAX: " << UINT_MAX << '\n'
+          << endl;
 
-    cout << "LONG_MIN: " << LONG_MIN << endl;
-    cout << "LONG_MAX: " << LONG_MAX << endl;
-    cout << "ULONG_MAX: " << ULONG_MAX << endl;
-    cout << "LLONG_MIN: " << LLONG_MIN << endl;
-    cout << "LLONG_MAX: " << LLONG_MAX << endl;
-    cout << "ULLONG_MAX: " << ULLONG_MAX << '\n'
-         << endl;
+     cout << "LONG_MIN: " << LONG_MIN << endl;
+     cout << "LONG_MAX: " << LONG_MAX << endl;
+     cout << "ULONG_MAX: " << ULONG_MAX << endl;
+     cout << "LLONG_MIN: " << LLONG_MIN << endl;
+     cout << "LLONG_MAX: " << LLONG_MAX << endl;
+     cout << "ULLONG_MAX: " << ULLONG_MAX << '\n'
+          << endl;
 
-    cout << "DBL_MAX" << DBL_MAX << endl;
-    cout << "DBL_MIN" << DBL_MIN << endl;
-    return 0;
+     cout << "DBL_MAX" << DBL_MAX << endl;
+     cout << "DBL_MIN" << DBL_MIN << endl;
+
+     return 0;
 }
 
 // CHAR_BIT: 8
